@@ -64,6 +64,7 @@
                 <Image x:Name="ImageConnected" Height="20" 
                        Source="C:\Users\bakid\Desktop\implementToolbarToggleClass\ImageConnected.png"
                        Stretch="Fill" Width="20" Margin="-8,-15,0,0"/>
+                
             </StatusBarItem>
         </StatusBar>
     </Grid>
