@@ -21,7 +21,6 @@
             <RowDefinition Height="50"/>
             <RowDefinition  Height="40"/>
             <RowDefinition Height="1"/>
-
         </Grid.RowDefinitions>
         <toggleswitch:toggle x:Name="Togg" HorizontalAlignment="Left" 
                             VerticalAlignment="Top" Grid.Column="1" Grid.Row="1"
@@ -49,7 +48,6 @@
                         <Grid.RowDefinitions>
                             <RowDefinition Height="40"/>
                         </Grid.RowDefinitions>
-
                     </Grid>
                 </ItemsPanelTemplate>
             </StatusBar.ItemsPanel>
@@ -68,7 +66,5 @@
                        Stretch="Fill" Width="20" Margin="-8,-15,0,0"/>
             </StatusBarItem>
         </StatusBar>
-
-
     </Grid>
 </Window>
