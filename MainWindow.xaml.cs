@@ -10,10 +10,15 @@ using System.Windows.Media;
 
 namespace implementToolbarToggleClass {
 
-	public partial class MainWindow : Window {
+	public partial class MainWindow : Window
+    {
+        // from MainWindows.xaml
+        // <!--Icon="Y:\Programming\c sharp fertige apps\implementToolbarToggleClass\Assets\toggleon.ico"-->
+        // Zeile 61 Source="Y:\Programming\c sharp fertige apps\implementToolbarToggleClass\Assets\disconnected.png" 
+        // Zeile 66 Source="Y:\Programming\c sharp fertige apps\implementToolbarToggleClass\Assets\ImageConnected.png"
 
-		private const string FileName = "Y://Programming//c sharp fertige apps//implementToolbarToggleClass//Assets//toggleon.ico";
-		//private const string FileName = "Assets//toggleon.ico";
+        //private const string FileName = "Y://Programming//c sharp fertige apps//implementToolbarToggleClass//Assets//toggleon.ico";
+        private const string FileName = "Assets//toggleon.ico";
 		private Wifi wifi = new Wifi();
         private Process proc = new Process();
         private Process proc2 = new Process();
@@ -27,7 +32,9 @@ namespace implementToolbarToggleClass {
 			ImageConnected.Visibility = Visibility.Hidden;
             ImageDisconnected.Visibility = Visibility.Hidden;
             ShowInTaskbar = true;
-			nIcon.Icon = new Icon(fileName: FileName);
+            // C:\Users\bakid\Desktop\implementToolbarToggleClass\Assets
+
+            nIcon.Icon = new Icon(fileName: FileName);
             nIcon.Visible = true;
             nIcon.Text = "Wifi On Off";
             nIcon.ShowBalloonTip(500, "", "Wlan An/Aus gestartet", ToolTipIcon.None);

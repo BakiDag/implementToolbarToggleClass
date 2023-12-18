@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:implementToolbarToggleClass"
         xmlns:ToggleClass="clr-namespace:ToggleClass;assembly=ToggleClass" xmlns:toggleswitch="clr-namespace:toggleswitch;assembly=toggleswitch" x:Class="implementToolbarToggleClass.MainWindow"
         mc:Ignorable="d"
-    Icon="Y:\Programming\c sharp fertige apps\implementToolbarToggleClass\Assets\toggleon.ico"
+    
+    Icon="Assets\toggleon.ico"
         Title="Wifi On/Off" Height="169" Width="250" MaxHeight="170" MaxWidth="550" Closing="Window_Closing" KeyDown="Window_KeyDown" StateChanged="Window_StateChanged" ResizeMode="CanMinimize">
     <Window.TaskbarItemInfo>
         <TaskbarItemInfo Description="Wifi Connection On Off"/>
@@ -57,12 +58,12 @@
             </StatusBarItem>
             <StatusBarItem Grid.Column="0" Height="21" Grid.Row="0">
                 <Image x:Name="ImageDisconnected" Height="16" 
-                       Source="Y:\Programming\c sharp fertige apps\implementToolbarToggleClass\Assets\disconnected.png" 
+                       Source="Assets\disconnected.png" 
                        Stretch="Fill" Width="16" Margin="0,-15,0,0"/>
             </StatusBarItem>
             <StatusBarItem Grid.Column="2">
                 <Image x:Name="ImageConnected" Height="20" 
-                       Source="Y:\Programming\c sharp fertige apps\implementToolbarToggleClass\Assets\ImageConnected.png"
+                       Source="Assets\ImageConnected.png"
                        Stretch="Fill" Width="20" Margin="-8,-15,0,0"/>
                 
             </StatusBarItem>
