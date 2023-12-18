@@ -107,10 +107,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="toggleon.ico" />
+    <Resource Include="Assets\toggleon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="toggle-on.png" />
+    <Resource Include="Assets\toggle-on.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
